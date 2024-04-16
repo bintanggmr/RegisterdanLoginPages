@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.login-form {
+    text-align: center;
+}
+
+input[type="text"] {
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+}
+
+button[type="submit"] {
+    width: 400px;
+    height: 50px;
+    padding: 15px;
+    border: 1px solid #22C55E;
+    border-radius: 5px;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    font-size: 16px;
+}
+
+input[type="email"] {
+    width: 400px;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 24px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+}
+
+button {
+    background-color: #22C55E;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #32CD32;
+}
+
+#judulemail {
+    text-align: left;
+    font-weight: 600;
+}
+
+#judulregister {
+    padding-top: 10px;
+}
+
+#atau {
+    padding-top: 15px;
+    width: 100%; 
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    margin: 10px 0 20px; 
+}
+
+#atauspan { 
+    background:white; 
+    padding:0 10px; 
+}
+
+#google {
+    margin-right: 10px;
+    width: 20px;
+    height: 15px;
+}
+
+#apple {
+    margin-right: 10px;
+    width: 20px;
+    height: 15px;
+}
+
+#applebutton {
+    background-color:white;
+    color: #000;
+    
+}
+
+#googlebutton {
+    background-color:white;
+    color: #000;
+}
+
+#applebutton:hover {
+    background-color: #32CD32;
+}
+
+#googlebutton:hover {
+    background-color: #32CD32;
+}
